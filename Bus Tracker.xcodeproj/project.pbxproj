@@ -15,6 +15,11 @@
 		4E23212A206D53E800B01954 /* Bus_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E232129206D53E800B01954 /* Bus_TrackerTests.swift */; };
 		4E232135206D53E800B01954 /* Bus_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E232134206D53E800B01954 /* Bus_TrackerUITests.swift */; };
 		4E232143206D5E5A00B01954 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E232142206D5E5A00B01954 /* SignInViewController.swift */; };
+		4E37F73220892E440076C650 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E37F73120892E440076C650 /* GoogleService-Info.plist */; };
+		4E3F4A352089388F00104F36 /* BusSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F4A342089388F00104F36 /* BusSelectionVC.swift */; };
+		699D54288839534459D4489D /* Pods_Bus_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51390B643D3905144384EA03 /* Pods_Bus_Tracker.framework */; };
+		73127C03627101D3642658A6 /* Pods_Bus_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E420EB1085F652DD27325D52 /* Pods_Bus_TrackerUITests.framework */; };
+		A7457F7315BA7BDF8CB5367E /* Pods_Bus_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B427C6B14FAF153CA79EC6CD /* Pods_Bus_TrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BBEC66C2FA2FD237532322D /* Pods-Bus TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bus TrackerUITests/Pods-Bus TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E232111206D53E800B01954 /* Bus Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bus Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E232114206D53E800B01954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E232116206D53E800B01954 /* OnboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 		4E232134206D53E800B01954 /* Bus_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus_TrackerUITests.swift; sourceTree = "<group>"; };
 		4E232136206D53E800B01954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E232142206D5E5A00B01954 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4E37F73120892E440076C650 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E3F4A342089388F00104F36 /* BusSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSelectionVC.swift; sourceTree = "<group>"; };
+		51390B643D3905144384EA03 /* Pods_Bus_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bus_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D528EFDC527403FAA11959E /* Pods-Bus Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		83209BB700472C41FA8BDF38 /* Pods-Bus TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bus TrackerUITests/Pods-Bus TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98795D45D55AB97901F5506E /* Pods-Bus TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bus TrackerTests/Pods-Bus TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B427C6B14FAF153CA79EC6CD /* Pods_Bus_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bus_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91BCFA0BC2FA74D50082E79 /* Pods-Bus Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		E11F6C1B99D6D3507D11A494 /* Pods-Bus TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bus TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bus TrackerTests/Pods-Bus TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E420EB1085F652DD27325D52 /* Pods_Bus_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bus_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699D54288839534459D4489D /* Pods_Bus_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7457F7315BA7BDF8CB5367E /* Pods_Bus_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73127C03627101D3642658A6 /* Pods_Bus_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				4E232128206D53E800B01954 /* Bus TrackerTests */,
 				4E232133206D53E800B01954 /* Bus TrackerUITests */,
 				4E232112206D53E800B01954 /* Products */,
+				AB120F7A6BDAF981D7461E25 /* Pods */,
+				D404A36A2C52082EAD7FE98C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 		4E232113206D53E800B01954 /* Bus Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				4E37F73120892E440076C650 /* GoogleService-Info.plist */,
 				4E232114206D53E800B01954 /* AppDelegate.swift */,
 				4E232116206D53E800B01954 /* OnboardController.swift */,
 				4E232118206D53E800B01954 /* Main.storyboard */,
@@ -106,6 +128,7 @@
 				4E23211D206D53E800B01954 /* LaunchScreen.storyboard */,
 				4E232120206D53E800B01954 /* Info.plist */,
 				4E232142206D5E5A00B01954 /* SignInViewController.swift */,
+				4E3F4A342089388F00104F36 /* BusSelectionVC.swift */,
 			);
 			path = "Bus Tracker";
 			sourceTree = "<group>";
@@ -128,6 +151,29 @@
 			path = "Bus TrackerUITests";
 			sourceTree = "<group>";
 		};
+		AB120F7A6BDAF981D7461E25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D528EFDC527403FAA11959E /* Pods-Bus Tracker.debug.xcconfig */,
+				C91BCFA0BC2FA74D50082E79 /* Pods-Bus Tracker.release.xcconfig */,
+				E11F6C1B99D6D3507D11A494 /* Pods-Bus TrackerTests.debug.xcconfig */,
+				98795D45D55AB97901F5506E /* Pods-Bus TrackerTests.release.xcconfig */,
+				83209BB700472C41FA8BDF38 /* Pods-Bus TrackerUITests.debug.xcconfig */,
+				3BBEC66C2FA2FD237532322D /* Pods-Bus TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D404A36A2C52082EAD7FE98C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51390B643D3905144384EA03 /* Pods_Bus_Tracker.framework */,
+				B427C6B14FAF153CA79EC6CD /* Pods_Bus_TrackerTests.framework */,
+				E420EB1085F652DD27325D52 /* Pods_Bus_TrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E232139206D53E800B01954 /* Build configuration list for PBXNativeTarget "Bus Tracker" */;
 			buildPhases = (
+				947D861125EB2AAFC5D87401 /* [CP] Check Pods Manifest.lock */,
 				4E23210D206D53E800B01954 /* Sources */,
 				4E23210E206D53E800B01954 /* Frameworks */,
 				4E23210F206D53E800B01954 /* Resources */,
+				5E6E046B8148D50551F09C71 /* [CP] Embed Pods Frameworks */,
+				D485A8AD69805506C56CEFE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E23213C206D53E800B01954 /* Build configuration list for PBXNativeTarget "Bus TrackerTests" */;
 			buildPhases = (
+				F0C3CEBE01F736E253DF10F7 /* [CP] Check Pods Manifest.lock */,
 				4E232121206D53E800B01954 /* Sources */,
 				4E232122206D53E800B01954 /* Frameworks */,
 				4E232123206D53E800B01954 /* Resources */,
+				0C5CF211FEE23ACF1A9FC26A /* [CP] Embed Pods Frameworks */,
+				CFE22875E6C41E8CCF7AAD5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E23213F206D53E800B01954 /* Build configuration list for PBXNativeTarget "Bus TrackerUITests" */;
 			buildPhases = (
+				E579EF8F41E7EAA4C5C6658D /* [CP] Check Pods Manifest.lock */,
 				4E23212C206D53E800B01954 /* Sources */,
 				4E23212D206D53E800B01954 /* Frameworks */,
 				4E23212E206D53E800B01954 /* Resources */,
+				445B3F4687E43F2D65B3044E /* [CP] Embed Pods Frameworks */,
+				1211B61DBF19A4C393FF4323 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E23211F206D53E800B01954 /* LaunchScreen.storyboard in Resources */,
+				4E37F73220892E440076C650 /* GoogleService-Info.plist in Resources */,
 				4E23211C206D53E800B01954 /* Assets.xcassets in Resources */,
 				4E23211A206D53E800B01954 /* Main.storyboard in Resources */,
 			);
@@ -257,11 +313,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5CF211FEE23ACF1A9FC26A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus TrackerTests/Pods-Bus TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1211B61DBF19A4C393FF4323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus TrackerUITests/Pods-Bus TrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445B3F4687E43F2D65B3044E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus TrackerUITests/Pods-Bus TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6E046B8148D50551F09C71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947D861125EB2AAFC5D87401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bus Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE22875E6C41E8CCF7AAD5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus TrackerTests/Pods-Bus TrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D485A8AD69805506C56CEFE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E579EF8F41E7EAA4C5C6658D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bus TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C3CEBE01F736E253DF10F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bus TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E23210D206D53E800B01954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3F4A352089388F00104F36 /* BusSelectionVC.swift in Sources */,
 				4E232117206D53E800B01954 /* OnboardController.swift in Sources */,
 				4E232115206D53E800B01954 /* AppDelegate.swift in Sources */,
 				4E232143206D5E5A00B01954 /* SignInViewController.swift in Sources */,
@@ -428,6 +639,7 @@
 		};
 		4E23213A206D53E800B01954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D528EFDC527403FAA11959E /* Pods-Bus Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +655,7 @@
 		};
 		4E23213B206D53E800B01954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91BCFA0BC2FA74D50082E79 /* Pods-Bus Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +671,7 @@
 		};
 		4E23213D206D53E800B01954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11F6C1B99D6D3507D11A494 /* Pods-Bus TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +689,7 @@
 		};
 		4E23213E206D53E800B01954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98795D45D55AB97901F5506E /* Pods-Bus TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +707,7 @@
 		};
 		4E232140206D53E800B01954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83209BB700472C41FA8BDF38 /* Pods-Bus TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +724,7 @@
 		};
 		4E232141206D53E800B01954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBEC66C2FA2FD237532322D /* Pods-Bus TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
