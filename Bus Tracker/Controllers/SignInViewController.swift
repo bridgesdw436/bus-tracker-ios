@@ -16,6 +16,16 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard)))
+    }
+    
+    @objc func dismissKeyboard() {
+        if passwordTextField.isFirstResponder {
+            passwordTextField.resignFirstResponder()
+        } else if signInTextField.isFirstResponder {
+            signInTextField.resignFirstResponder()
+        }
     }
     
     @IBAction func preformLogin(_ sender: Any) {

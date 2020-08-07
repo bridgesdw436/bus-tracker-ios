@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Pastel
 
 class OnboardController: UIViewController {
     @IBOutlet weak var onboardLabel: UILabel!
@@ -17,7 +18,21 @@ class OnboardController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let pastelView = PastelView(frame: view.bounds)
         
+        // Custom Direction
+        pastelView.startPastelPoint = .bottomLeft
+        pastelView.endPastelPoint = .topRight
+        
+        // Custom Duration
+        pastelView.animationDuration = 3.0
+        
+        // Custom Color
+        pastelView.setColors([UIColor(red:0.23, green:0.47, blue:0.92, alpha:1.0),
+                              UIColor(red:0.43, green:0.60, blue:0.87, alpha:1.0)])
+        
+        pastelView.startAnimation()
+        view.insertSubview(pastelView, at: 0)
     }
 
     override func didReceiveMemoryWarning() {

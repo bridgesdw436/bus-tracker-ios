@@ -120,15 +120,12 @@
 		4E232113206D53E800B01954 /* Bus Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				4E37F73120892E440076C650 /* GoogleService-Info.plist */,
 				4E232114206D53E800B01954 /* AppDelegate.swift */,
-				4E232116206D53E800B01954 /* OnboardController.swift */,
-				4E232118206D53E800B01954 /* Main.storyboard */,
-				4E23211B206D53E800B01954 /* Assets.xcassets */,
-				4E23211D206D53E800B01954 /* LaunchScreen.storyboard */,
+				4E37F73120892E440076C650 /* GoogleService-Info.plist */,
 				4E232120206D53E800B01954 /* Info.plist */,
-				4E232142206D5E5A00B01954 /* SignInViewController.swift */,
-				4E3F4A342089388F00104F36 /* BusSelectionVC.swift */,
+				4EDD68DE208A7A68007894A8 /* Controllers */,
+				4EDD68DF208A7A85007894A8 /* Storyboards */,
+				4E23211B206D53E800B01954 /* Assets.xcassets */,
 			);
 			path = "Bus Tracker";
 			sourceTree = "<group>";
@@ -149,6 +146,25 @@
 				4E232136206D53E800B01954 /* Info.plist */,
 			);
 			path = "Bus TrackerUITests";
+			sourceTree = "<group>";
+		};
+		4EDD68DE208A7A68007894A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E232116206D53E800B01954 /* OnboardController.swift */,
+				4E232142206D5E5A00B01954 /* SignInViewController.swift */,
+				4E3F4A342089388F00104F36 /* BusSelectionVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4EDD68DF208A7A85007894A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4E232118206D53E800B01954 /* Main.storyboard */,
+				4E23211D206D53E800B01954 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		AB120F7A6BDAF981D7461E25 /* Pods */ = {
@@ -368,12 +384,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Bus Tracker/Pods-Bus Tracker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

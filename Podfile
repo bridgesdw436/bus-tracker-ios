@@ -7,9 +7,10 @@ target 'Bus Tracker' do
 
   # Pods for Bus Tracker
 
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
-
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Pastel'
+  
   target 'Bus TrackerTests' do
     inherit! :search_paths
     # Pods for testing
